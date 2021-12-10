@@ -3,10 +3,10 @@ import random
 
 for i in range(HoeveelMMS):
     KleurKiezen = random.choice('OGBR')
-    print (random)
+    print (KleurKiezen)
 def MMZak(x):
     KleurenZak = ["oranje", "groen", "blauw", "bruin"]
-    for i in range (HoeveelMMS):
+    for i in range(HoeveelMMS):
         if x == "O":
             KleurenZak.append("oranje")
         elif x == "G":
