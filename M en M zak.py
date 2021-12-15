@@ -1,21 +1,20 @@
 HoeveelMMS = int(input("Hoeveel M&M's moeten er aan de de worden toegevoegd? "))
 import random
 
-for i in range(HoeveelMMS):
-    KleurKiezen = random.choice('OGBR')
-    print (random)
-def MMZak(x):
+
+def MMZak(x: int):
     KleurenZak = ["oranje", "groen", "blauw", "bruin"]
-    for i in range (HoeveelMMS):
-        if x == "O":
+    for i in range(x):
+        KleurKiezen = random.choice('OGBR')
+        if KleurKiezen == "O":
             KleurenZak.append("oranje")
-        elif x == "G":
+        elif KleurKiezen == "G":
             KleurenZak.append("groen")
-        elif x == "B":
+        elif KleurKiezen == "B":
             KleurenZak.append("blauw")
-        elif x == "R":
+        elif KleurKiezen == "R":
             KleurenZak.append("bruin")
-        print (KleurenZak)
+    print (KleurenZak)
 
 
-MMZak(KleurKiezen)
+MMZak(HoeveelMMS)
