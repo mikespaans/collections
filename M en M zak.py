@@ -1,4 +1,4 @@
-HoeveelMMS = int(input("Hoeveel M&M's moeten er aan de de worden toegevoegd? "))
+HoeveelMMS = int(input("Hoeveel M&M's moeten er aan de zak worden toegevoegd? "))
 import random
 
 
