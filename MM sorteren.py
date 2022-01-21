@@ -1,7 +1,6 @@
 HoeveelMMS = int(input("Hoeveel M&M's moeten er aan de zak worden toegevoegd? "))
 import random
-def MMSorteren(y):
-    return e['number']
+
 def ZakSorteren(x):
     x.sort() 
     return x
@@ -42,6 +41,6 @@ def MMSZak(x: int):
         elif KleurKiezen == "R":
             KleurZak["bruin"] += 1
     print (KleurZak)
-    KleurZak.sort(key=MMSorteren)
+    ZakSorteren(KleurZak)
     print (KleurZak)
 MMSZak(HoeveelMMS)
