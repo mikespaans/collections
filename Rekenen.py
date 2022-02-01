@@ -8,16 +8,19 @@ def plus(list1, list2):
     for i in range(len(list1)):
         print(list1[i] + list2[i])
 plus(ListOne, ListTwo)
+print ("")
 
 def min(list1, list2):
     for i in range(len(list1)):
         print(list1[i] - list2[i])
 min(ListOne, ListTwo)
+print ("")
 
 def keer(list1, list2):
     for i in range(len(list1)):
         print(list1[i] * list2[i])
 keer(ListOne, ListTwo)
+print ("")
 
 def gedeeld(list1, list2):
     for i in range(len(list1)):

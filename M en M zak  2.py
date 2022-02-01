@@ -11,7 +11,7 @@ def MMZak(x: int):
     }
     for i in range (x):
         KleurKiezen = random.choice(KleurenZak)
-        Zak[(KleurKiezen)] += 1
+        Zak[KleurKiezen] += 1
     return Zak
       
 
