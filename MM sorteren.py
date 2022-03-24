@@ -2,8 +2,13 @@ HoeveelMMS = int(input("Hoeveel M&M's moeten er aan de zak worden toegevoegd? ")
 import random
 
 def ZakSorteren(x):
-    GesoorterdeZak = sorted(x) 
-    print (type(GesoorterdeZak))
+    # GesoorterdeZak = sorted(x) 
+    TypeZak = type(x)
+    print (TypeZak)
+    if TypeZak == list:
+        GesoorterdeZak = sorted(x) 
+    else:
+        GesoorterdeZak = (sorted(x.items(),key=lambda item:item[0]))
     return GesoorterdeZak
 
 KleurenZak = ["oranje", "groen", "blauw", "bruin"]
